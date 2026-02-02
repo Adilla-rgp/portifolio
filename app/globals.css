@@ -8,8 +8,13 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* já existentes */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* nova fonte Arimo */
+  --font-arimo: var(--font-arimo);
 }
 
 @media (prefers-color-scheme: dark) {
