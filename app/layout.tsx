@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 const arimo = Arimo({
   variable: "--font-arimo",
   subsets: ["latin"],
-  weight: ["400", "700"], // pesos que você vai usar
+  weight: ["400", "700"], 
 });
 
 export const metadata: Metadata = {
