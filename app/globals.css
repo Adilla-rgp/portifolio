@@ -15,6 +15,12 @@
 
   /* nova fonte Arimo */
   --font-arimo: var(--font-arimo);
+  
+  /* fonte Roboto */
+  --font-roboto: var(--font-roboto);
+
+  /* fonte Montserrat */
+  --font-montserrat: var(--font-montserrat);
 }
 
 @media (prefers-color-scheme: dark) {
