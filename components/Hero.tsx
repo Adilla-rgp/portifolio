@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { FaGithub } from "react-icons/fa"; // importando o ícone
 
 export default function Hero() {
   return (
@@ -8,7 +9,6 @@ export default function Hero() {
       
       {/* Lado esquerdo */}
       <div className="md:w-1/3 text-left space-y-4">
-        {/* Logo alinhada à esquerda */}
         <div className="flex justify-start">
           <Image src="/logo-esquerda.png" alt="Logo esquerda" width={48} height={48} />
         </div>
@@ -37,7 +37,6 @@ export default function Hero() {
 
       {/* Lado direito */}
       <div className="md:w-1/3 text-right space-y-4">
-        {/* Logo alinhada à direita */}
         <div className="flex justify-end">
           <Image src="/logo-direita.png" alt="Logo direita" width={48} height={48} />
         </div>
@@ -46,10 +45,13 @@ export default function Hero() {
         <p className="font-roboto font-normal">
           Construindo aplicações web escaláveis e bem estruturadas com princípios de código limpo e arquitetura robusta.
         </p>
-        <a href="https://github.com/Adilla-rgp" target="_blank" className="bg-transparent text-white px-4 py-2 rounded border-2
-         border-white hover:bg-white hover:text-purple-800 transition-colors duration-300 inline-flex items-center gap-2">
-            <Image src="/icon-github.png" alt="GitHub" width={20} height={20} className="w-5 h-5"/>
-            Perfil no GitHub
+        <a
+          href="https://github.com/Adilla-rgp"
+          target="_blank"
+          className="bg-transparent text-white px-4 py-2 rounded border-2 border-white hover:bg-white hover:text-purple-800 transition-colors duration-300 inline-flex items-center gap-2"
+        >
+          <FaGithub size={20} />
+          Perfil no GitHub
         </a>
       </div>
     </section>
